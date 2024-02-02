@@ -3,10 +3,22 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Honk&family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
     <title>Thông tin cá nhân</title>
   </head>
   <body>
-    <header>
+    <header
+      style="
+        font-family: 'Honk', system-ui;
+        font-size: x-large;
+        text-align: center;
+      "
+    >
       <h1>INFOMATION</h1>
     </header>
     <!--Thanh điều hướng-->
@@ -28,6 +40,7 @@
     <main>
       <section>
         <h1>Thông tin cá nhân cơ bản</h1>
+        <img src="avt.jpg" alt="avt" style="width: 25%" />
         <ul>
           <li><strong>Họ và tên: </strong>Lê Hữu Độ</li>
           <li><strong>Ngày sinh: </strong>24/02/2004</li>
@@ -75,9 +88,79 @@
           <li><strong>Email: </strong>info@uit.edu.vn</li>
         </ul>
       </section>
+      <section>
+        <h1>Quê quán</h1>
+        <img
+          src="countrymap_resize.png"
+          alt="countrymap"
+          usemap="#countrymap"
+        />
+        <map name="countrymap">
+          <area
+            target="_blank"
+            alt="Thành Phố Buôn Ma Thuột"
+            title="Thành Phố Buôn Ma Thuột"
+            href="https://vi.wikipedia.org/wiki/Bu%C3%B4n_Ma_Thu%E1%BB%99t"
+            coords="378,48,39"
+            shape="circle"
+          />
+          <area
+            target="_blank"
+            alt="Buôn Tría"
+            title="Buôn Tría"
+            href="https://vi.wikipedia.org/wiki/Bu%C3%B4n_Tr%C3%ADa"
+            coords="476,393,33"
+            shape="circle"
+          />
+          <area
+            target="_blank"
+            alt="Khu Bảo tồn Thiên nhiên Nam Kar"
+            title="Khu Bảo tồn Thiên nhiên Nam Kar"
+            href="https://vi.wikipedia.org/wiki/Khu_b%E1%BA%A3o_t%E1%BB%93n_thi%C3%AAn_nhi%C3%AAn_Nam_Kar"
+            coords="242,356,230,387,246,411,268,430,261,442,275,445,279,470,294,467,290,490,300,499,301,511,310,506,328,505,388,493,376,519,388,523,393,531,412,537,427,539,440,537,454,544,488,535,499,507,496,477,507,443,510,422,441,405,432,417,411,410,412,398,395,389,363,389,358,377,357,367,337,363,312,361,318,351,296,346,274,333"
+            shape="poly"
+          />
+          <area
+            target="_blank"
+            alt="Vườn quốc gia Chư Yang Sin"
+            title="Vườn quốc gia Chư Yang Sin"
+            href="https://vi.wikipedia.org/wiki/V%C6%B0%E1%BB%9Dn_qu%E1%BB%91c_gia_Ch%C6%B0_Yang_Sin"
+            coords="636,285,985,491"
+            shape="rect"
+          />
+          <area
+            target="_blank"
+            alt="Khu Bảo tồn Thiên nhiên Nâm Nung"
+            title="Khu Bảo tồn Thiên nhiên Nâm Nung"
+            href="https://daknonggeopark.com/da-dang-sinh-hoc/khu-bao-ton-thien-nhien-nam-nung/"
+            coords="0,400,31,399,59,425,101,418,137,439,145,459,155,461,163,470,173,464,206,460,198,471,211,486,227,485,234,506,255,523,261,542,262,557,255,561,238,595,1,595"
+            shape="poly"
+          />
+        </map>
+      </section>
     </main>
-    <footer>
-      <p><b>Thông tin liên lạc</b></p>
+    <footer
+      style="
+        padding: 12px;
+        margin: 12px;
+        border-style: dotted;
+        background-color: darkolivegreen;
+      "
+    >
+      <p
+        style="
+          text-align: center;
+          border-style: solid;
+          margin: 0;
+          padding: 2px;
+          background-color: greenyellow;
+          font-style: italic;
+          font-size: large;
+          font-family: 'Pacifico', cursive;
+        "
+      >
+        <b>Thông tin liên lạc</b>
+      </p>
       <p>
         <b>Github:</b> <a href="https://github.com/lehuudoUIT">lehuudoUIT</a>
       </p>

@@ -3,10 +3,22 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Honk&family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
     <title>Phim đã xem</title>
   </head>
   <body>
-    <header>
+    <header
+      style="
+        font-family: 'Honk', system-ui;
+        font-size: x-large;
+        text-align: center;
+      "
+    >
       <h1>MOVIES LIST</h1>
     </header>
     <!--Thanh điều hướng-->
@@ -52,6 +64,16 @@
           <li><b>Thời lượng:</b> 125 mins</li>
           <li><b>Năm sản xuất:</b> 2001</li>
         </ul>
+        <p><b>Trailer:</b> Sử dụng iframe</p>
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/ByXuk9QqQkk?si=OGrRy8QWrUjq1eWG"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
       </section>
       <!--Phim 2-->
 
@@ -69,6 +91,11 @@
           <li><b>Thời lượng:</b> 195 mins</li>
           <li><b>Năm sản xuất:</b> 1997</li>
         </ul>
+        <p><b>Trailer:</b> Sử dụng video có điều khiển</p>
+        <video width="640" height="360" controls>
+          <source src="video/titanic_trailer.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
       </section>
       <!--Phim 3-->
 
@@ -86,6 +113,10 @@
           <li><b>Thời lượng:</b> 182 mins</li>
           <li><b>Năm sản xuất:</b> 2019</li>
         </ul>
+        <p><b>Trailer:</b> Sử dụng video không điều khiển</p>
+        <video width="640" height="360">
+          <source src="video/avenger_trailer.mp4" type="video/mp4" />
+        </video>
       </section>
       <!--Phim 4-->
 
@@ -102,6 +133,17 @@
           <li><b>Thời lượng:</b> 162 mins</li>
           <li><b>Năm sản xuất:</b> 2009</li>
         </ul>
+        <p><b>Trailer:</b> Sử dụng iframe</p>
+
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/d9MyW72ELq0?si=Mo-WMmPuaQIZ51R2"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
       </section>
       <!--Phim 5-->
 
@@ -119,10 +161,41 @@
           <li><b>Thời lượng:</b> 96 mins</li>
           <li><b>Năm sản xuất:</b> 1957</li>
         </ul>
+        <p><b>Trailer:</b> Sử dụng iframe</p>
+
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/TEN-2uTi2c0?si=DiNmMv0x6_XZxYsk"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
       </section>
     </main>
-    <footer>
-      <p><b>Thông tin liên lạc</b></p>
+    <footer
+      style="
+        padding: 12px;
+        margin: 12px;
+        border-style: dotted;
+        background-color: darkolivegreen;
+      "
+    >
+      <p
+        style="
+          text-align: center;
+          border-style: solid;
+          margin: 0;
+          padding: 2px;
+          background-color: greenyellow;
+          font-style: italic;
+          font-size: large;
+          font-family: 'Pacifico', cursive;
+        "
+      >
+        <b>Thông tin liên lạc</b>
+      </p>
       <p>
         <b>Github:</b> <a href="https://github.com/lehuudoUIT">lehuudoUIT</a>
       </p>
